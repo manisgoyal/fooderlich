@@ -48,8 +48,8 @@ class Card1 extends StatelessWidget {
           width: 350,
           height: 450,
         ),
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(16),
+        decoration: const BoxDecoration(
+            borderRadius: BorderRadius.all(Radius.circular(16)),
             image: DecorationImage(
               image: AssetImage('assets/mag1.png'),
               fit: BoxFit.cover,
